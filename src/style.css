@@ -87,7 +87,6 @@ body {
     /* font-family: 'Manrope', sans-serif; */
 }
 
-
 .button {
     align-items: center;
     text-align: center;
@@ -115,7 +114,6 @@ body {
     transition: 0.2s ease-in-out;
 }
 
-
 #click:hover{
     width: 70%;
     background: rgb(91, 84, 92);
@@ -128,8 +126,14 @@ body {
     animation-delay: 0.06s;
 }
 
-
-    
+.footline { 
+  color: rgb(224, 10, 185);
+  padding: 10px;
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  word-spacing: 0.5px;
+  text-align: right;
+}
 
 @keyframes rotate {
     0% {
@@ -149,7 +153,7 @@ body {
     }
   }
     
-  @keyframes storm {
+@keyframes storm {
     0% {
       transform: translate3d(0, 0, 0) translateZ(0);
     }
