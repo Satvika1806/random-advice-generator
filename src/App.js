@@ -3,7 +3,6 @@ import axios from 'axios';
 
 import './style.css';
 
-
 class App extends React.Component {
 
     state = {id:'',advice: ''};
@@ -61,13 +60,19 @@ class App extends React.Component {
                         <button id='click' onClick={this.fetchAdvice}>
                             <span> Generate </span>
                         </button>
-                    </div>     
+                    </div> 
+                    
+                    <div className = 'footline'>
+                    -- Executed by
+                        <u> 
+                            <a href = "https://github.com/Satvika1806 "> Satvika</a>
+                        </u>
+                    </div> 
                 </div>
             </div>  
 
         );
     }
 }
-
 
 export default App;
