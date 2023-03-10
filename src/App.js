@@ -62,16 +62,7 @@ class App extends React.Component {
                             <span> Generate </span>
                         </button>
                     </div>     
-
                 </div>
-
-                <div className = 'footline'>
-                    Executed by 
-                        <u>
-                           <a href = "https://github.com/Satvika1806 "> Satvika</a>
-                        </u>
-                </div>
-
             </div>  
 
         );
